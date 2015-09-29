@@ -1,3 +1,5 @@
+.gradle/
+indexer.iml
 .idea/
 build/
 palantir-indexer.iml
