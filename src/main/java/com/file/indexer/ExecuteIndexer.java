@@ -1,4 +1,4 @@
-package com.palantir.indexer;
+package com.file.indexer;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

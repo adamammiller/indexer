@@ -1,6 +1,6 @@
 package com.service;
 
-import com.palantir.indexer.ExecuteIndexer;
+import com.file.indexer.ExecuteIndexer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -15,7 +15,7 @@ public class Service {
         get("/index", (request, response) -> {
             String path = request.queryParams("path");
             log.debug("Path: " + path);
-            
+
             if(path==null || path.isEmpty()){
                 halt(400, "You must provide query param path=/path/to");
             } else {

@@ -1,5 +1,6 @@
-package com.palantir.indexer;
+package com.file.indexer;
 
+import com.file.indexer.ExecuteIndexer;
 import org.apache.commons.vfs2.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

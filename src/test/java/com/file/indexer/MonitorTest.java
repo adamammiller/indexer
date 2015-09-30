@@ -1,4 +1,4 @@
-package com.palantir.indexer;
+package com.file.indexer;
 
 import org.apache.commons.vfs2.FileObject;
 import org.apache.commons.vfs2.FileSystemException;
